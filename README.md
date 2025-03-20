@@ -9,6 +9,7 @@ Once this is done , to run evaluate.cpp ,
 In the bash terminal , run the following command :
 
 c++ -o evaluate evaluate.cpp simdjson.cpp
+
 ./evaluate.exe
 
 
@@ -17,5 +18,6 @@ Similarly , to run evaluate.d ,
 In the bash terminal , run the following command :
 
 dmd evaluate.d -of=evaluate.exe
+
 ./evaluate.exe
 
