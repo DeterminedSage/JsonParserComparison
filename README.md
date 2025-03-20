@@ -1,7 +1,11 @@
 # JsonParserComparison
 rapidjson vs simdjson vs jsoniopipe
 
+
+
 To execute this file in your local machine , make sure to integrate the relevant files in the same directory as the one containing evaluate.cpp :
+
+
 
 
 simdjson parser : https://github.com/simdjson/simdjson 
@@ -16,6 +20,8 @@ DMD[D lang compiler] : https://github.com/dlang/dmd/tree/master
 
 PHOBOS[D standard library] : https://github.com/dlang/phobos)
 
+
+
  
 
 Once this is done , to run evaluate.cpp , 
@@ -25,6 +31,8 @@ c++ -o evaluate evaluate.cpp simdjson.cpp
 
 
 ./evaluate.exe
+
+
 
 
 Similarly , to run evaluate.d ,
