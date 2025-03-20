@@ -4,11 +4,15 @@ rapidjson vs simdjson vs jsoniopipe
 To execute this file in your local machine , make sure to integrate the relevant files :
 
 simdjson parser : https://github.com/simdjson/simdjson 
+
 rapidjson parser : https://github.com/Tencent/rapidjson/ 
+
 jsoniopipe : https://github.com/schveiguy/jsoniopipe 
+
 (For jsoniopipe and running evaluate.d , you also might need to refer 
 
 DMD[D lang compiler] : https://github.com/dlang/dmd/tree/master
+
 PHOBOS[D standard library] : https://github.com/dlang/phobos
 
 )
